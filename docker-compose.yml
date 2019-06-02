@@ -1,0 +1,6 @@
+version: "2"
+services:
+  m3upipe:
+    build: .
+    ports:
+      - "8454:8080"
